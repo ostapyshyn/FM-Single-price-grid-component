@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import PriceCard from './components/PriceCard';
 
 function App() {

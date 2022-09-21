@@ -5,7 +5,10 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  max-width: 700px;
-  border: 1px solid mediumblue;
   margin: auto;
+
+  @media (max-width: 525px) {
+    padding-block: 72px;
+    height: auto;
+  }
 }

@@ -15,17 +15,33 @@ function PriceCard() {
         </header>
 
         <footer>
-          <div>
+          <div className={styles.subscribe}>
             <h2>Monthly Subscription</h2>
-            <p>$29 per month</p>
+
+            <div className={styles.price}>
+              <h3>$29</h3>
+              <span>per month</span>
+            </div>
+
             <p>Full access for less than $1 a day</p>
             <button>Sign Up</button>
           </div>
-          <div>
+          <div className={styles.about}>
             <h2>Why Us</h2>
             <p>
-              Tutorials by industry expertsPeer & expert code reviewCoding exercisesAccess to our
-              GitHub reposCommunity forumFlashcard decksNew videos every week
+              Tutorials by industry experts
+              <br />
+              Peer & expert code review
+              <br />
+              Coding exercises
+              <br />
+              Access to our GitHub repos
+              <br />
+              Community forum
+              <br />
+              Flashcard decks
+              <br />
+              New videos every week
             </p>
           </div>
         </footer>
