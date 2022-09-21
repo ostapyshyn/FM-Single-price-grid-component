@@ -14,6 +14,10 @@ main {
     header {
       background: #ffffff;
       padding: 42px;
+
+      @media (max-width: 525px) {
+        padding: 24px;
+      }
     }
 
     h1 {
@@ -59,6 +63,10 @@ main {
 
     .subscribe {
       padding: 42px;
+
+      @media (max-width: 525px) {
+        padding: 24px;
+      }
       .price {
         display: flex;
         align-items: center;
@@ -106,12 +114,17 @@ main {
         padding-block: 15px;
         width: 100%;
         margin-top: 27px;
+        cursor: pointer;
       }
     }
 
     .about {
       padding: 42px;
       opacity: 0.85;
+
+      @media (max-width: 525px) {
+        padding: 24px;
+      }
       p {
         font-family: 'Karla';
         font-weight: 400;
